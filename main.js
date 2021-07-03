@@ -20,7 +20,7 @@ playPauseButton.onclick = () => {
         playPauseButton.innerHTML = "Pause";
     } else {
         console.log("Pausing");
-        playPauseButton.innerHTML = "Start";
+        playPauseButton.innerHTML = "Play";
     }
     paused = !paused;
 };
