@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css">
+<body>
+    <div class="header">Conway's Game of Life</div>
+    <div class="main">
+        <canvas class="myCanvas" align="center">
+            <p>Your browser does not support canvas</p>
+        </canvas>
+    </div>
+    <div class="settings">
+        <div class="buttons">
+            <button class="playPause">Start</button>
+            <button class="clear">Clear</button>
+            <button class="generate">Generate</button>
+        </div>
+        <div class="divSlider">
+            <div style="margin: auto; text-align: center;">
+                <label for="speedRange">Speed</label>
+                <input type="range" min="1" max="15" value="7" class="slider" id="speedRange">
+            </div>
+            <div style="margin: auto; text-align: center;">
+                <label for="resolutionRange">Resolution</label>
+                <input type="range" min="5" max="20" value="12" class="slider" id="resolutionRange">
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
