@@ -1,6 +1,8 @@
 # Conway's Game of Life
 Implementation of Conway's Game of Life in your browser.
 
+![Conway's Game of Life](demo.png)
+
 ## Running
 The easiest way to run is to start a local python server using the command `python -m http.server`.
 Then navigate to `localhost:8000` in your browser.
